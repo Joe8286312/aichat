@@ -1,0 +1,19 @@
+spring:
+  application.name: aichat
+
+server:
+  port: 8080
+
+knife4j:
+  enable: true
+  openapi:
+    title: ?????api??
+    group:
+      default:
+        group-name: ai?????
+        api-rule: package
+        api-rule-resources:
+          - com.joe.aichat.controller
+
+ark:
+  api-key: 871577e2-7dca-4289-911e-aa27fc5aa620
